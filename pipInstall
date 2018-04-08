@@ -1,0 +1,9 @@
+pip安装：
+在users/Administrator/pip文件夹下创建新的ini文件：pip.ini
+
+文件以global配置开头：
+[global]
+
+添加豆瓣的代理服务器：
+index-url=https://pypi.douban.com/simple
+trusted-host=pypi.douban.com
